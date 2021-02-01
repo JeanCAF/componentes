@@ -28,6 +28,7 @@ class HomePageTemp extends StatelessWidget {
     }
     return lista;
   }
+
 //segunda opcion de hacer un for para mostrar una lista 
   List<Widget> _crearItemsCorta() {
     return opciones.map(( item ){
